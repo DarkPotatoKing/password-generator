@@ -1,3 +1,7 @@
-from Generator import *
+from CLI import CLI
 
-print Generator.generate_random_password()
+def main():
+    CLI.start()
+
+if __name__ == '__main__':
+    main()

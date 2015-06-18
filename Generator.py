@@ -20,4 +20,3 @@ class Generator():
         for i in xrange(length):
             password += random.choice(password_set)
         return password
-
